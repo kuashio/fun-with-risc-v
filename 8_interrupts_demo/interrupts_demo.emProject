@@ -1,0 +1,67 @@
+<!DOCTYPE CrossStudio_Project_File>
+<solution Name="interrupts_demo" target="20" version="2">
+  <project Name="interrupts_demo">
+    <configuration
+      LIBRARY_IO_TYPE="RTT"
+      Name="Common"
+      Placement="Flash"
+      Target="GD32VF103VBT6"
+      arm_interwork="No"
+      c_preprocessor_definitions="GD32VF103VB;__GD32VF1xx_FAMILY;__GD32VF103_SUBFAMILY;FLASH_PLACEMENT=1"
+      c_user_include_directories="$(ProjectDir)/GD32VF1xx/Device/Include"
+      debug_register_definition_file="$(ProjectDir)/GD32VF103_Registers.xml"
+      debug_target_connection="J-Link"
+      gcc_entry_point="Reset_Handler"
+      linker_output_format="hex"
+      linker_section_placement_file="$(ProjectDir)/flash_placement_riscv.xml"
+      linker_section_placements_segments="FLASH1 RX 0x08000000 0x00020000;RAM1 RW 0x20000000 0x00008000"
+      macros="DeviceHeaderFile=$(PackagesDir)/GD32VF1xx/Device/Include/gd32vf103.h;DeviceLibraryIdentifier=M3l;DeviceSystemFile=$(PackagesDir)/GD32VF1xx/Device/Source/system_gd32vf103.c;DeviceFamily=GD32VF1xx;DeviceSubFamily=GD32VF103;Target=GD32VF103VBT6;Placement=Flash"
+      project_directory=""
+      project_type="Executable"
+      rv_architecture="rv32imac"
+      target_reset_script="Reset();"
+      target_trace_initialize_script="EnableTrace(&quot;$(TraceInterfaceType)&quot;)" />
+    <folder Name="Script Files">
+      <file file_name="GD32VF1xx/Scripts/GD32VF1xx_Target.js">
+        <configuration Name="Common" file_type="Reset Script" />
+      </file>
+    </folder>
+    <folder Name="Source Files">
+      <configuration Name="Common" filter="c;cpp;cxx;cc;h;s;asm;inc" />
+      <file file_name="main.c" />
+      <file file_name="GD32VF1xx/Device/Source/gd32vf103_gpio.c" />
+      <file file_name="GD32VF1xx/Device/Source/gd32vf103_rcu.c" />
+      <file file_name="GD32VF1xx/Device/Source/gd32vf103_timer.c" />
+    </folder>
+    <folder Name="System Files">
+      <file file_name="riscv_crt0.s" />
+      <file file_name="GD32VF1xx/Source/GD32VF1xx_Startup.s" />
+      <file file_name="GD32VF1xx/Device/Source/init.c" />
+      <file file_name="GD32VF1xx/Device/Source/n22_func.c">
+        <configuration Name="Debug" build_exclude_from_build="Yes" />
+        <configuration Name="Release" build_exclude_from_build="Yes" />
+      </file>
+      <file file_name="GD32VF1xx/Device/Source/entry.s" />
+      <file file_name="GD32VF1xx/Device/Source/gd32vf103_eclic.c" />
+      <file file_name="GD32VF1xx/Device/Include/gd32vf103.h" />
+      <file file_name="GD32VF1xx/Device/Source/system_gd32vf103.c">
+        <configuration
+          Name="Common"
+          default_code_section=".init"
+          default_const_section=".init_rodata" />
+      </file>
+      <file file_name="GD32VF1xx/Device/Source/n200_func.c" />
+    </folder>
+  </project>
+  <configuration
+    Name="Debug"
+    c_preprocessor_definitions="DEBUG"
+    gcc_debugging_level="Level 3"
+    gcc_optimization_level="None" />
+  <configuration
+    Name="Release"
+    c_preprocessor_definitions="NDEBUG"
+    gcc_debugging_level="Level 2"
+    gcc_omit_frame_pointer="Yes"
+    gcc_optimization_level="Level 2 balanced" />
+</solution>

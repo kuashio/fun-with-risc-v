@@ -1,0 +1,779 @@
+<!DOCTYPE Register_Definition_File>
+<Processor name="GD32VF103" description="GD32VF103 Registers">
+  <RegisterGroup start="0x40000000+0x00012C00" name="TIMER0">
+    <Register name="TIMER_CTL0" start="+0x00" size="0x4" />
+    <Register name="TIMER_CTL1" start="+0x04" size="0x4" />
+    <Register name="TIMER_SMCFG" start="+0x08" size="0x4" />
+    <Register name="TIMER_DMAINTEN" start="+0x0C" size="0x4" />
+    <Register name="TIMER_INTF" start="+0x10" size="0x4" />
+    <Register name="TIMER_SWEVG" start="+0x14" size="0x4" />
+    <Register name="TIMER_CHCTL0" start="+0x18" size="0x4" />
+    <Register name="TIMER_CHCTL1" start="+0x1C" size="0x4" />
+    <Register name="TIMER_CHCTL2" start="+0x20" size="0x4" />
+    <Register name="TIMER_CNT" start="+0x24" size="0x4" />
+    <Register name="TIMER_PSC" start="+0x28" size="0x4" />
+    <Register name="TIMER_CAR" start="+0x2C" size="0x4" />
+    <Register name="TIMER_CREP" start="+0x30" size="0x4" />
+    <Register name="TIMER_CH0CV" start="+0x34" size="0x4" />
+    <Register name="TIMER_CH1CV" start="+0x38" size="0x4" />
+    <Register name="TIMER_CH2CV" start="+0x3C" size="0x4" />
+    <Register name="TIMER_CH3CV" start="+0x40" size="0x4" />
+    <Register name="TIMER_CCHP" start="+0x44" size="0x4" />
+    <Register name="TIMER_DMACFG" start="+0x48" size="0x4" />
+    <Register name="TIMER_DMATB" start="+0x4C" size="0x4" />
+  </RegisterGroup>
+  <RegisterGroup start="0x40000000+0x00000000" name="TIMER1">
+    <Register name="TIMER_CTL0" start="+0x00" size="0x4" />
+    <Register name="TIMER_CTL1" start="+0x04" size="0x4" />
+    <Register name="TIMER_SMCFG" start="+0x08" size="0x4" />
+    <Register name="TIMER_DMAINTEN" start="+0x0C" size="0x4" />
+    <Register name="TIMER_INTF" start="+0x10" size="0x4" />
+    <Register name="TIMER_SWEVG" start="+0x14" size="0x4" />
+    <Register name="TIMER_CHCTL0" start="+0x18" size="0x4" />
+    <Register name="TIMER_CHCTL1" start="+0x1C" size="0x4" />
+    <Register name="TIMER_CHCTL2" start="+0x20" size="0x4" />
+    <Register name="TIMER_CNT" start="+0x24" size="0x4" />
+    <Register name="TIMER_PSC" start="+0x28" size="0x4" />
+    <Register name="TIMER_CAR" start="+0x2C" size="0x4" />
+    <Register name="TIMER_CREP" start="+0x30" size="0x4" />
+    <Register name="TIMER_CH0CV" start="+0x34" size="0x4" />
+    <Register name="TIMER_CH1CV" start="+0x38" size="0x4" />
+    <Register name="TIMER_CH2CV" start="+0x3C" size="0x4" />
+    <Register name="TIMER_CH3CV" start="+0x40" size="0x4" />
+    <Register name="TIMER_CCHP" start="+0x44" size="0x4" />
+    <Register name="TIMER_DMACFG" start="+0x48" size="0x4" />
+    <Register name="TIMER_DMATB" start="+0x4C" size="0x4" />
+  </RegisterGroup>
+  <RegisterGroup start="0x40000000+0x00000400" name="TIMER2">
+    <Register name="TIMER_CTL0" start="+0x00" size="0x4" />
+    <Register name="TIMER_CTL1" start="+0x04" size="0x4" />
+    <Register name="TIMER_SMCFG" start="+0x08" size="0x4" />
+    <Register name="TIMER_DMAINTEN" start="+0x0C" size="0x4" />
+    <Register name="TIMER_INTF" start="+0x10" size="0x4" />
+    <Register name="TIMER_SWEVG" start="+0x14" size="0x4" />
+    <Register name="TIMER_CHCTL0" start="+0x18" size="0x4" />
+    <Register name="TIMER_CHCTL1" start="+0x1C" size="0x4" />
+    <Register name="TIMER_CHCTL2" start="+0x20" size="0x4" />
+    <Register name="TIMER_CNT" start="+0x24" size="0x4" />
+    <Register name="TIMER_PSC" start="+0x28" size="0x4" />
+    <Register name="TIMER_CAR" start="+0x2C" size="0x4" />
+    <Register name="TIMER_CREP" start="+0x30" size="0x4" />
+    <Register name="TIMER_CH0CV" start="+0x34" size="0x4" />
+    <Register name="TIMER_CH1CV" start="+0x38" size="0x4" />
+    <Register name="TIMER_CH2CV" start="+0x3C" size="0x4" />
+    <Register name="TIMER_CH3CV" start="+0x40" size="0x4" />
+    <Register name="TIMER_CCHP" start="+0x44" size="0x4" />
+    <Register name="TIMER_DMACFG" start="+0x48" size="0x4" />
+    <Register name="TIMER_DMATB" start="+0x4C" size="0x4" />
+  </RegisterGroup>
+  <RegisterGroup start="0x40000000+0x00000800" name="TIMER3">
+    <Register name="TIMER_CTL0" start="+0x00" size="0x4" />
+    <Register name="TIMER_CTL1" start="+0x04" size="0x4" />
+    <Register name="TIMER_SMCFG" start="+0x08" size="0x4" />
+    <Register name="TIMER_DMAINTEN" start="+0x0C" size="0x4" />
+    <Register name="TIMER_INTF" start="+0x10" size="0x4" />
+    <Register name="TIMER_SWEVG" start="+0x14" size="0x4" />
+    <Register name="TIMER_CHCTL0" start="+0x18" size="0x4" />
+    <Register name="TIMER_CHCTL1" start="+0x1C" size="0x4" />
+    <Register name="TIMER_CHCTL2" start="+0x20" size="0x4" />
+    <Register name="TIMER_CNT" start="+0x24" size="0x4" />
+    <Register name="TIMER_PSC" start="+0x28" size="0x4" />
+    <Register name="TIMER_CAR" start="+0x2C" size="0x4" />
+    <Register name="TIMER_CREP" start="+0x30" size="0x4" />
+    <Register name="TIMER_CH0CV" start="+0x34" size="0x4" />
+    <Register name="TIMER_CH1CV" start="+0x38" size="0x4" />
+    <Register name="TIMER_CH2CV" start="+0x3C" size="0x4" />
+    <Register name="TIMER_CH3CV" start="+0x40" size="0x4" />
+    <Register name="TIMER_CCHP" start="+0x44" size="0x4" />
+    <Register name="TIMER_DMACFG" start="+0x48" size="0x4" />
+    <Register name="TIMER_DMATB" start="+0x4C" size="0x4" />
+  </RegisterGroup>
+  <RegisterGroup start="0x40000000+0x00000C00" name="TIMER4">
+    <Register name="TIMER_CTL0" start="+0x00" size="0x4" />
+    <Register name="TIMER_CTL1" start="+0x04" size="0x4" />
+    <Register name="TIMER_SMCFG" start="+0x08" size="0x4" />
+    <Register name="TIMER_DMAINTEN" start="+0x0C" size="0x4" />
+    <Register name="TIMER_INTF" start="+0x10" size="0x4" />
+    <Register name="TIMER_SWEVG" start="+0x14" size="0x4" />
+    <Register name="TIMER_CHCTL0" start="+0x18" size="0x4" />
+    <Register name="TIMER_CHCTL1" start="+0x1C" size="0x4" />
+    <Register name="TIMER_CHCTL2" start="+0x20" size="0x4" />
+    <Register name="TIMER_CNT" start="+0x24" size="0x4" />
+    <Register name="TIMER_PSC" start="+0x28" size="0x4" />
+    <Register name="TIMER_CAR" start="+0x2C" size="0x4" />
+    <Register name="TIMER_CREP" start="+0x30" size="0x4" />
+    <Register name="TIMER_CH0CV" start="+0x34" size="0x4" />
+    <Register name="TIMER_CH1CV" start="+0x38" size="0x4" />
+    <Register name="TIMER_CH2CV" start="+0x3C" size="0x4" />
+    <Register name="TIMER_CH3CV" start="+0x40" size="0x4" />
+    <Register name="TIMER_CCHP" start="+0x44" size="0x4" />
+    <Register name="TIMER_DMACFG" start="+0x48" size="0x4" />
+    <Register name="TIMER_DMATB" start="+0x4C" size="0x4" />
+  </RegisterGroup>
+  <RegisterGroup start="0x40000000+0x00001000" name="TIMER5">
+    <Register name="TIMER_CTL0" start="+0x00" size="0x4" />
+    <Register name="TIMER_CTL1" start="+0x04" size="0x4" />
+    <Register name="TIMER_SMCFG" start="+0x08" size="0x4" />
+    <Register name="TIMER_DMAINTEN" start="+0x0C" size="0x4" />
+    <Register name="TIMER_INTF" start="+0x10" size="0x4" />
+    <Register name="TIMER_SWEVG" start="+0x14" size="0x4" />
+    <Register name="TIMER_CHCTL0" start="+0x18" size="0x4" />
+    <Register name="TIMER_CHCTL1" start="+0x1C" size="0x4" />
+    <Register name="TIMER_CHCTL2" start="+0x20" size="0x4" />
+    <Register name="TIMER_CNT" start="+0x24" size="0x4" />
+    <Register name="TIMER_PSC" start="+0x28" size="0x4" />
+    <Register name="TIMER_CAR" start="+0x2C" size="0x4" />
+    <Register name="TIMER_CREP" start="+0x30" size="0x4" />
+    <Register name="TIMER_CH0CV" start="+0x34" size="0x4" />
+    <Register name="TIMER_CH1CV" start="+0x38" size="0x4" />
+    <Register name="TIMER_CH2CV" start="+0x3C" size="0x4" />
+    <Register name="TIMER_CH3CV" start="+0x40" size="0x4" />
+    <Register name="TIMER_CCHP" start="+0x44" size="0x4" />
+    <Register name="TIMER_DMACFG" start="+0x48" size="0x4" />
+    <Register name="TIMER_DMATB" start="+0x4C" size="0x4" />
+  </RegisterGroup>
+  <RegisterGroup start="0x40000000+0x00001400" name="TIMER6">
+    <Register name="TIMER_CTL0" start="+0x00" size="0x4" />
+    <Register name="TIMER_CTL1" start="+0x04" size="0x4" />
+    <Register name="TIMER_SMCFG" start="+0x08" size="0x4" />
+    <Register name="TIMER_DMAINTEN" start="+0x0C" size="0x4" />
+    <Register name="TIMER_INTF" start="+0x10" size="0x4" />
+    <Register name="TIMER_SWEVG" start="+0x14" size="0x4" />
+    <Register name="TIMER_CHCTL0" start="+0x18" size="0x4" />
+    <Register name="TIMER_CHCTL1" start="+0x1C" size="0x4" />
+    <Register name="TIMER_CHCTL2" start="+0x20" size="0x4" />
+    <Register name="TIMER_CNT" start="+0x24" size="0x4" />
+    <Register name="TIMER_PSC" start="+0x28" size="0x4" />
+    <Register name="TIMER_CAR" start="+0x2C" size="0x4" />
+    <Register name="TIMER_CREP" start="+0x30" size="0x4" />
+    <Register name="TIMER_CH0CV" start="+0x34" size="0x4" />
+    <Register name="TIMER_CH1CV" start="+0x38" size="0x4" />
+    <Register name="TIMER_CH2CV" start="+0x3C" size="0x4" />
+    <Register name="TIMER_CH3CV" start="+0x40" size="0x4" />
+    <Register name="TIMER_CCHP" start="+0x44" size="0x4" />
+    <Register name="TIMER_DMACFG" start="+0x48" size="0x4" />
+    <Register name="TIMER_DMATB" start="+0x4C" size="0x4" />
+  </RegisterGroup>
+  <RegisterGroup start="0x40002800" name="RTC">
+    <Register name="RTC_INTEN" start="+0x00" size="0x4" />
+    <Register name="RTC_CTL" start="+0x04" size="0x4" />
+    <Register name="RTC_PSCH" start="+0x08" size="0x4" />
+    <Register name="RTC_PSCL" start="+0x0C" size="0x4" />
+    <Register name="RTC_DIVH" start="+0x10" size="0x4" />
+    <Register name="RTC_DIVL" start="+0x14" size="0x4" />
+    <Register name="RTC_CNTH" start="+0x18" size="0x4" />
+    <Register name="RTC_CNTL" start="+0x1C" size="0x4" />
+    <Register name="RTC_ALRMH" start="+0x20" size="0x4" />
+    <Register name="RTC_ALRML" start="+0x24" size="0x4" />
+  </RegisterGroup>
+  <RegisterGroup start="0x40002C00" name="WWDGT">
+    <Register name="WWDGT_CTL" start="+0x00" size="0x4" />
+    <Register name="WWDGT_CFG" start="+0x04" size="0x4" />
+    <Register name="WWDGT_STAT" start="+0x08" size="0x4" />
+  </RegisterGroup>
+  <RegisterGroup start="0x40003000" name="WWDGT">
+    <Register name="FWDGT_CTL" start="+0x00" size="0x4" />
+    <Register name="FWDGT_PSC" start="+0x04" size="0x4" />
+    <Register name="FWDGT_RLD" start="+0x08" size="0x4" />
+    <Register name="FWDGT_STAT" start="+0x0C" size="0x4" />
+  </RegisterGroup>
+  <RegisterGroup start="0x40003800+0x0000F800" name="SPI0">
+    <Register name="SPI_CTL0" start="+0x00" size="0x4" />
+    <Register name="SPI_CTL1" start="+0x04" size="0x4" />
+    <Register name="SPI_STAT" start="+0x08" size="0x4" />
+    <Register name="SPI_DATA" start="+0x0C" size="0x4" />
+    <Register name="SPI_CRCPOLY" start="+0x10" size="0x4" />
+    <Register name="SPI_RCRC" start="+0x14" size="0x4" />
+    <Register name="SPI_TCRC" start="+0x18" size="0x4" />
+    <Register name="SPI_I2SCTL" start="+0x1C" size="0x4" />
+    <Register name="SPI_I2SPSC" start="+0x20" size="0x4" />
+  </RegisterGroup>
+  <RegisterGroup start="0x40003800+0x00000000" name="SPI1">
+    <Register name="SPI_CTL0" start="+0x00" size="0x4" />
+    <Register name="SPI_CTL1" start="+0x04" size="0x4" />
+    <Register name="SPI_STAT" start="+0x08" size="0x4" />
+    <Register name="SPI_DATA" start="+0x0C" size="0x4" />
+    <Register name="SPI_CRCPOLY" start="+0x10" size="0x4" />
+    <Register name="SPI_RCRC" start="+0x14" size="0x4" />
+    <Register name="SPI_TCRC" start="+0x18" size="0x4" />
+    <Register name="SPI_I2SCTL" start="+0x1C" size="0x4" />
+    <Register name="SPI_I2SPSC" start="+0x20" size="0x4" />
+  </RegisterGroup>
+  <RegisterGroup start="0x40003800+0x00000400" name="SPI2">
+    <Register name="SPI_CTL0" start="+0x00" size="0x4" />
+    <Register name="SPI_CTL1" start="+0x04" size="0x4" />
+    <Register name="SPI_STAT" start="+0x08" size="0x4" />
+    <Register name="SPI_DATA" start="+0x0C" size="0x4" />
+    <Register name="SPI_CRCPOLY" start="+0x10" size="0x4" />
+    <Register name="SPI_RCRC" start="+0x14" size="0x4" />
+    <Register name="SPI_TCRC" start="+0x18" size="0x4" />
+    <Register name="SPI_I2SCTL" start="+0x1C" size="0x4" />
+    <Register name="SPI_I2SPSC" start="+0x20" size="0x4" />
+  </RegisterGroup>
+  <RegisterGroup start="0x40004400+0x0000F400" name="USART0">
+    <Register name="USART_STAT" start="+0x00" size="0x4" />
+    <Register name="USART_DATA" start="+0x04" size="0x4" />
+    <Register name="USART_BAUD" start="+0x08" size="0x4" />
+    <Register name="USART_CTL0" start="+0x0C" size="0x4" />
+    <Register name="USART_CTL1" start="+0x10" size="0x4" />
+    <Register name="USART_CTL2" start="+0x14" size="0x4" />
+    <Register name="USART_GP" start="+0x18" size="0x4" />
+  </RegisterGroup>
+  <RegisterGroup start="0x40004400+0x00000000" name="USART1">
+    <Register name="USART_STAT" start="+0x00" size="0x4" />
+    <Register name="USART_DATA" start="+0x04" size="0x4" />
+    <Register name="USART_BAUD" start="+0x08" size="0x4" />
+    <Register name="USART_CTL0" start="+0x0C" size="0x4" />
+    <Register name="USART_CTL1" start="+0x10" size="0x4" />
+    <Register name="USART_CTL2" start="+0x14" size="0x4" />
+    <Register name="USART_GP" start="+0x18" size="0x4" />
+  </RegisterGroup>
+  <RegisterGroup start="0x40004400+0x00000400" name="USART2">
+    <Register name="USART_STAT" start="+0x00" size="0x4" />
+    <Register name="USART_DATA" start="+0x04" size="0x4" />
+    <Register name="USART_BAUD" start="+0x08" size="0x4" />
+    <Register name="USART_CTL0" start="+0x0C" size="0x4" />
+    <Register name="USART_CTL1" start="+0x10" size="0x4" />
+    <Register name="USART_CTL2" start="+0x14" size="0x4" />
+    <Register name="USART_GP" start="+0x18" size="0x4" />
+  </RegisterGroup>
+  <RegisterGroup start="0x40004400+0x00000800" name="UART3">
+    <Register name="USART_STAT" start="+0x00" size="0x4" />
+    <Register name="USART_DATA" start="+0x04" size="0x4" />
+    <Register name="USART_BAUD" start="+0x08" size="0x4" />
+    <Register name="USART_CTL0" start="+0x0C" size="0x4" />
+    <Register name="USART_CTL1" start="+0x10" size="0x4" />
+    <Register name="USART_CTL2" start="+0x14" size="0x4" />
+    <Register name="USART_GP" start="+0x18" size="0x4" />
+  </RegisterGroup>
+  <RegisterGroup start="0x40004400+0x00000C00" name="UART4">
+    <Register name="USART_STAT" start="+0x00" size="0x4" />
+    <Register name="USART_DATA" start="+0x04" size="0x4" />
+    <Register name="USART_BAUD" start="+0x08" size="0x4" />
+    <Register name="USART_CTL0" start="+0x0C" size="0x4" />
+    <Register name="USART_CTL1" start="+0x10" size="0x4" />
+    <Register name="USART_CTL2" start="+0x14" size="0x4" />
+    <Register name="USART_GP" start="+0x18" size="0x4" />
+  </RegisterGroup>
+  <RegisterGroup start="0x40005400+0x00000000" name="I2C0">
+    <Register name="I2C_CTL0" start="+0x00" size="0x4" />
+    <Register name="I2C_CTL1" start="+0x04" size="0x4" />
+    <Register name="I2C_SADDR0" start="+0x08" size="0x4" />
+    <Register name="I2C_SADDR1" start="+0x0C" size="0x4" />
+    <Register name="I2C_DATA" start="+0x10" size="0x4" />
+    <Register name="I2C_STAT0" start="+0x14" size="0x4" />
+    <Register name="I2C_STAT1" start="+0x18" size="0x4" />
+    <Register name="I2C_CKCFG" start="+0x1C" size="0x4" />
+    <Register name="I2C_RT" start="+0x20" size="0x4" />
+  </RegisterGroup>
+  <RegisterGroup start="0x40005400+0x00000400" name="I2C1">
+    <Register name="I2C_CTL0" start="+0x00" size="0x4" />
+    <Register name="I2C_CTL1" start="+0x04" size="0x4" />
+    <Register name="I2C_SADDR0" start="+0x08" size="0x4" />
+    <Register name="I2C_SADDR1" start="+0x0C" size="0x4" />
+    <Register name="I2C_DATA" start="+0x10" size="0x4" />
+    <Register name="I2C_STAT0" start="+0x14" size="0x4" />
+    <Register name="I2C_STAT1" start="+0x18" size="0x4" />
+    <Register name="I2C_CKCFG" start="+0x1C" size="0x4" />
+    <Register name="I2C_RT" start="+0x20" size="0x4" />
+  </RegisterGroup>
+  <RegisterGroup start="0x40006400+0x00000000" name="CAN0">
+    <Register name="CAN_CTL" start="+0x00" size="0x4" />
+    <Register name="CAN_STAT" start="+0x04" size="0x4" />
+    <Register name="CAN_TSTAT" start="+0x08" size="0x4" />
+    <Register name="CAN_RFIFO0" start="+0x0C" size="0x4" />
+    <Register name="CAN_RFIFO1" start="+0x10" size="0x4" />
+    <Register name="CAN_INTEN" start="+0x14" size="0x4" />
+    <Register name="CAN_ERR" start="+0x18" size="0x4" />
+    <Register name="CAN_BT" start="+0x1C" size="0x4" />
+    <Register name="CAN_TMI0" start="+0x180" size="0x4" />
+    <Register name="CAN_TMP0" start="+0x184" size="0x4" />
+    <Register name="CAN_TMDATA00" start="+0x188" size="0x4" />
+    <Register name="CAN_TMDATA10" start="+0x18C" size="0x4" />
+    <Register name="CAN_TMI1" start="+0x190" size="0x4" />
+    <Register name="CAN_TMP1" start="+0x194" size="0x4" />
+    <Register name="CAN_TMDATA01" start="+0x198" size="0x4" />
+    <Register name="CAN_TMDATA11" start="+0x19C" size="0x4" />
+    <Register name="CAN_TMI2" start="+0x1A0" size="0x4" />
+    <Register name="CAN_TMP2" start="+0x1A4" size="0x4" />
+    <Register name="CAN_TMDATA02" start="+0x1A8" size="0x4" />
+    <Register name="CAN_TMDATA12" start="+0x1AC" size="0x4" />
+    <Register name="CAN_RFIFOMI0" start="+0x1B0" size="0x4" />
+    <Register name="CAN_RFIFOMP0" start="+0x1B4" size="0x4" />
+    <Register name="CAN_RFIFOMDATA00" start="+0x1B8" size="0x4" />
+    <Register name="CAN_RFIFOMDATA10" start="+0x1BC" size="0x4" />
+    <Register name="CAN_RFIFOMI1" start="+0x1C0" size="0x4" />
+    <Register name="CAN_RFIFOMP1" start="+0x1C4" size="0x4" />
+    <Register name="CAN_RFIFOMDATA01" start="+0x1C8" size="0x4" />
+    <Register name="CAN_RFIFOMDATA11" start="+0x1CC" size="0x4" />
+    <Register name="CAN_FCTL" start="+0x200" size="0x4" />
+    <Register name="CAN_FMCFG" start="+0x204" size="0x4" />
+    <Register name="CAN_FSCFG" start="+0x20C" size="0x4" />
+    <Register name="CAN_FAFIFO" start="+0x214" size="0x4" />
+    <Register name="CAN_FW" start="+0x21C" size="0x4" />
+    <Register name="CAN_F0DATA0" start="+0x240" size="0x4" />
+    <Register name="CAN_F1DATA0" start="+0x248" size="0x4" />
+    <Register name="CAN_F2DATA0" start="+0x250" size="0x4" />
+    <Register name="CAN_F3DATA0" start="+0x258" size="0x4" />
+    <Register name="CAN_F4DATA0" start="+0x260" size="0x4" />
+    <Register name="CAN_F5DATA0" start="+0x268" size="0x4" />
+    <Register name="CAN_F6DATA0" start="+0x270" size="0x4" />
+    <Register name="CAN_F7DATA0" start="+0x278" size="0x4" />
+    <Register name="CAN_F8DATA0" start="+0x280" size="0x4" />
+    <Register name="CAN_F9DATA0" start="+0x288" size="0x4" />
+    <Register name="CAN_F10DATA0" start="+0x290" size="0x4" />
+    <Register name="CAN_F11DATA0" start="+0x298" size="0x4" />
+    <Register name="CAN_F12DATA0" start="+0x2A0" size="0x4" />
+    <Register name="CAN_F13DATA0" start="+0x2A8" size="0x4" />
+    <Register name="CAN_F14DATA0" start="+0x2B0" size="0x4" />
+    <Register name="CAN_F15DATA0" start="+0x2B8" size="0x4" />
+    <Register name="CAN_F16DATA0" start="+0x2C0" size="0x4" />
+    <Register name="CAN_F17DATA0" start="+0x2C8" size="0x4" />
+    <Register name="CAN_F18DATA0" start="+0x2D0" size="0x4" />
+    <Register name="CAN_F19DATA0" start="+0x2D8" size="0x4" />
+    <Register name="CAN_F20DATA0" start="+0x2E0" size="0x4" />
+    <Register name="CAN_F21DATA0" start="+0x2E8" size="0x4" />
+    <Register name="CAN_F22DATA0" start="+0x2F0" size="0x4" />
+    <Register name="CAN_F23DATA0" start="+0x3F8" size="0x4" />
+    <Register name="CAN_F24DATA0" start="+0x300" size="0x4" />
+    <Register name="CAN_F25DATA0" start="+0x308" size="0x4" />
+    <Register name="CAN_F26DATA0" start="+0x310" size="0x4" />
+    <Register name="CAN_F27DATA0" start="+0x318" size="0x4" />
+    <Register name="CAN_F0DATA1" start="+0x244" size="0x4" />
+    <Register name="CAN_F1DATA1" start="+0x24C" size="0x4" />
+    <Register name="CAN_F2DATA1" start="+0x254" size="0x4" />
+    <Register name="CAN_F3DATA1" start="+0x25C" size="0x4" />
+    <Register name="CAN_F4DATA1" start="+0x264" size="0x4" />
+    <Register name="CAN_F5DATA1" start="+0x26C" size="0x4" />
+    <Register name="CAN_F6DATA1" start="+0x274" size="0x4" />
+    <Register name="CAN_F7DATA1" start="+0x27C" size="0x4" />
+    <Register name="CAN_F8DATA1" start="+0x284" size="0x4" />
+    <Register name="CAN_F9DATA1" start="+0x28C" size="0x4" />
+    <Register name="CAN_F10DATA1" start="+0x294" size="0x4" />
+    <Register name="CAN_F11DATA1" start="+0x29C" size="0x4" />
+    <Register name="CAN_F12DATA1" start="+0x2A4" size="0x4" />
+    <Register name="CAN_F13DATA1" start="+0x2AC" size="0x4" />
+    <Register name="CAN_F14DATA1" start="+0x2B4" size="0x4" />
+    <Register name="CAN_F15DATA1" start="+0x2BC" size="0x4" />
+    <Register name="CAN_F16DATA1" start="+0x2C4" size="0x4" />
+    <Register name="CAN_F17DATA1" start="+0x24C" size="0x4" />
+    <Register name="CAN_F18DATA1" start="+0x2D4" size="0x4" />
+    <Register name="CAN_F19DATA1" start="+0x2DC" size="0x4" />
+    <Register name="CAN_F20DATA1" start="+0x2E4" size="0x4" />
+    <Register name="CAN_F21DATA1" start="+0x2EC" size="0x4" />
+    <Register name="CAN_F22DATA1" start="+0x2F4" size="0x4" />
+    <Register name="CAN_F23DATA1" start="+0x2FC" size="0x4" />
+    <Register name="CAN_F24DATA1" start="+0x304" size="0x4" />
+    <Register name="CAN_F25DATA1" start="+0x30C" size="0x4" />
+    <Register name="CAN_F26DATA1" start="+0x314" size="0x4" />
+    <Register name="CAN_F27DATA1" start="+0x31C" size="0x4" />
+  </RegisterGroup>
+  <RegisterGroup start="0x40006400+0x00000400" name="CAN1">
+    <Register name="CAN_CTL" start="+0x00" size="0x4" />
+    <Register name="CAN_STAT" start="+0x04" size="0x4" />
+    <Register name="CAN_TSTAT" start="+0x08" size="0x4" />
+    <Register name="CAN_RFIFO0" start="+0x0C" size="0x4" />
+    <Register name="CAN_RFIFO1" start="+0x10" size="0x4" />
+    <Register name="CAN_INTEN" start="+0x14" size="0x4" />
+    <Register name="CAN_ERR" start="+0x18" size="0x4" />
+    <Register name="CAN_BT" start="+0x1C" size="0x4" />
+    <Register name="CAN_TMI0" start="+0x180" size="0x4" />
+    <Register name="CAN_TMP0" start="+0x184" size="0x4" />
+    <Register name="CAN_TMDATA00" start="+0x188" size="0x4" />
+    <Register name="CAN_TMDATA10" start="+0x18C" size="0x4" />
+    <Register name="CAN_TMI1" start="+0x190" size="0x4" />
+    <Register name="CAN_TMP1" start="+0x194" size="0x4" />
+    <Register name="CAN_TMDATA01" start="+0x198" size="0x4" />
+    <Register name="CAN_TMDATA11" start="+0x19C" size="0x4" />
+    <Register name="CAN_TMI2" start="+0x1A0" size="0x4" />
+    <Register name="CAN_TMP2" start="+0x1A4" size="0x4" />
+    <Register name="CAN_TMDATA02" start="+0x1A8" size="0x4" />
+    <Register name="CAN_TMDATA12" start="+0x1AC" size="0x4" />
+    <Register name="CAN_RFIFOMI0" start="+0x1B0" size="0x4" />
+    <Register name="CAN_RFIFOMP0" start="+0x1B4" size="0x4" />
+    <Register name="CAN_RFIFOMDATA00" start="+0x1B8" size="0x4" />
+    <Register name="CAN_RFIFOMDATA10" start="+0x1BC" size="0x4" />
+    <Register name="CAN_RFIFOMI1" start="+0x1C0" size="0x4" />
+    <Register name="CAN_RFIFOMP1" start="+0x1C4" size="0x4" />
+    <Register name="CAN_RFIFOMDATA01" start="+0x1C8" size="0x4" />
+    <Register name="CAN_RFIFOMDATA11" start="+0x1CC" size="0x4" />
+    <Register name="CAN_FCTL" start="+0x200" size="0x4" />
+    <Register name="CAN_FMCFG" start="+0x204" size="0x4" />
+    <Register name="CAN_FSCFG" start="+0x20C" size="0x4" />
+    <Register name="CAN_FAFIFO" start="+0x214" size="0x4" />
+    <Register name="CAN_FW" start="+0x21C" size="0x4" />
+    <Register name="CAN_F0DATA0" start="+0x240" size="0x4" />
+    <Register name="CAN_F1DATA0" start="+0x248" size="0x4" />
+    <Register name="CAN_F2DATA0" start="+0x250" size="0x4" />
+    <Register name="CAN_F3DATA0" start="+0x258" size="0x4" />
+    <Register name="CAN_F4DATA0" start="+0x260" size="0x4" />
+    <Register name="CAN_F5DATA0" start="+0x268" size="0x4" />
+    <Register name="CAN_F6DATA0" start="+0x270" size="0x4" />
+    <Register name="CAN_F7DATA0" start="+0x278" size="0x4" />
+    <Register name="CAN_F8DATA0" start="+0x280" size="0x4" />
+    <Register name="CAN_F9DATA0" start="+0x288" size="0x4" />
+    <Register name="CAN_F10DATA0" start="+0x290" size="0x4" />
+    <Register name="CAN_F11DATA0" start="+0x298" size="0x4" />
+    <Register name="CAN_F12DATA0" start="+0x2A0" size="0x4" />
+    <Register name="CAN_F13DATA0" start="+0x2A8" size="0x4" />
+    <Register name="CAN_F14DATA0" start="+0x2B0" size="0x4" />
+    <Register name="CAN_F15DATA0" start="+0x2B8" size="0x4" />
+    <Register name="CAN_F16DATA0" start="+0x2C0" size="0x4" />
+    <Register name="CAN_F17DATA0" start="+0x2C8" size="0x4" />
+    <Register name="CAN_F18DATA0" start="+0x2D0" size="0x4" />
+    <Register name="CAN_F19DATA0" start="+0x2D8" size="0x4" />
+    <Register name="CAN_F20DATA0" start="+0x2E0" size="0x4" />
+    <Register name="CAN_F21DATA0" start="+0x2E8" size="0x4" />
+    <Register name="CAN_F22DATA0" start="+0x2F0" size="0x4" />
+    <Register name="CAN_F23DATA0" start="+0x3F8" size="0x4" />
+    <Register name="CAN_F24DATA0" start="+0x300" size="0x4" />
+    <Register name="CAN_F25DATA0" start="+0x308" size="0x4" />
+    <Register name="CAN_F26DATA0" start="+0x310" size="0x4" />
+    <Register name="CAN_F27DATA0" start="+0x318" size="0x4" />
+    <Register name="CAN_F0DATA1" start="+0x244" size="0x4" />
+    <Register name="CAN_F1DATA1" start="+0x24C" size="0x4" />
+    <Register name="CAN_F2DATA1" start="+0x254" size="0x4" />
+    <Register name="CAN_F3DATA1" start="+0x25C" size="0x4" />
+    <Register name="CAN_F4DATA1" start="+0x264" size="0x4" />
+    <Register name="CAN_F5DATA1" start="+0x26C" size="0x4" />
+    <Register name="CAN_F6DATA1" start="+0x274" size="0x4" />
+    <Register name="CAN_F7DATA1" start="+0x27C" size="0x4" />
+    <Register name="CAN_F8DATA1" start="+0x284" size="0x4" />
+    <Register name="CAN_F9DATA1" start="+0x28C" size="0x4" />
+    <Register name="CAN_F10DATA1" start="+0x294" size="0x4" />
+    <Register name="CAN_F11DATA1" start="+0x29C" size="0x4" />
+    <Register name="CAN_F12DATA1" start="+0x2A4" size="0x4" />
+    <Register name="CAN_F13DATA1" start="+0x2AC" size="0x4" />
+    <Register name="CAN_F14DATA1" start="+0x2B4" size="0x4" />
+    <Register name="CAN_F15DATA1" start="+0x2BC" size="0x4" />
+    <Register name="CAN_F16DATA1" start="+0x2C4" size="0x4" />
+    <Register name="CAN_F17DATA1" start="+0x24C" size="0x4" />
+    <Register name="CAN_F18DATA1" start="+0x2D4" size="0x4" />
+    <Register name="CAN_F19DATA1" start="+0x2DC" size="0x4" />
+    <Register name="CAN_F20DATA1" start="+0x2E4" size="0x4" />
+    <Register name="CAN_F21DATA1" start="+0x2EC" size="0x4" />
+    <Register name="CAN_F22DATA1" start="+0x2F4" size="0x4" />
+    <Register name="CAN_F23DATA1" start="+0x2FC" size="0x4" />
+    <Register name="CAN_F24DATA1" start="+0x304" size="0x4" />
+    <Register name="CAN_F25DATA1" start="+0x30C" size="0x4" />
+    <Register name="CAN_F26DATA1" start="+0x314" size="0x4" />
+    <Register name="CAN_F27DATA1" start="+0x31C" size="0x4" />
+  </RegisterGroup>
+  <RegisterGroup start="0x40006C00" name="BKP">
+    <Register name="BKP_DATA0" start="+0x04" size="0x2" />
+    <Register name="BKP_DATA1" start="+0x08" size="0x2" />
+    <Register name="BKP_DATA2" start="+0x0C" size="0x2" />
+    <Register name="BKP_DATA3" start="+0x10" size="0x2" />
+    <Register name="BKP_DATA4" start="+0x14" size="0x2" />
+    <Register name="BKP_DATA5" start="+0x18" size="0x2" />
+    <Register name="BKP_DATA6" start="+0x1C" size="0x2" />
+    <Register name="BKP_DATA7" start="+0x20" size="0x2" />
+    <Register name="BKP_DATA8" start="+0x24" size="0x2" />
+    <Register name="BKP_DATA9" start="+0x28" size="0x2" />
+    <Register name="BKP_DATA10" start="+0x40" size="0x2" />
+    <Register name="BKP_DATA11" start="+0x44" size="0x2" />
+    <Register name="BKP_DATA12" start="+0x48" size="0x2" />
+    <Register name="BKP_DATA13" start="+0x4C" size="0x2" />
+    <Register name="BKP_DATA14" start="+0x50" size="0x2" />
+    <Register name="BKP_DATA15" start="+0x54" size="0x2" />
+    <Register name="BKP_DATA16" start="+0x58" size="0x2" />
+    <Register name="BKP_DATA17" start="+0x5C" size="0x2" />
+    <Register name="BKP_DATA18" start="+0x60" size="0x2" />
+    <Register name="BKP_DATA19" start="+0x64" size="0x2" />
+    <Register name="BKP_DATA20" start="+0x68" size="0x2" />
+    <Register name="BKP_DATA21" start="+0x6C" size="0x2" />
+    <Register name="BKP_DATA22" start="+0x70" size="0x2" />
+    <Register name="BKP_DATA23" start="+0x74" size="0x2" />
+    <Register name="BKP_DATA24" start="+0x78" size="0x2" />
+    <Register name="BKP_DATA25" start="+0x7C" size="0x2" />
+    <Register name="BKP_DATA26" start="+0x80" size="0x2" />
+    <Register name="BKP_DATA27" start="+0x84" size="0x2" />
+    <Register name="BKP_DATA28" start="+0x88" size="0x2" />
+    <Register name="BKP_DATA29" start="+0x8C" size="0x2" />
+    <Register name="BKP_DATA30" start="+0x90" size="0x2" />
+    <Register name="BKP_DATA31" start="+0x94" size="0x2" />
+    <Register name="BKP_DATA32" start="+0x98" size="0x2" />
+    <Register name="BKP_DATA33" start="+0x9C" size="0x2" />
+    <Register name="BKP_DATA34" start="+0xA0" size="0x2" />
+    <Register name="BKP_DATA35" start="+0xA4" size="0x2" />
+    <Register name="BKP_DATA36" start="+0xA8" size="0x2" />
+    <Register name="BKP_DATA37" start="+0xAC" size="0x2" />
+    <Register name="BKP_DATA38" start="+0xB0" size="0x2" />
+    <Register name="BKP_DATA39" start="+0xB4" size="0x2" />
+    <Register name="BKP_DATA40" start="+0xB8" size="0x2" />
+    <Register name="BKP_DATA41" start="+0xBC" size="0x2" />
+    <Register name="BKP_OCTL" start="+0x2C" size="0x2" />
+    <Register name="BKP_TPCTL" start="+0x30" size="0x2" />
+    <Register name="BKP_TPCS" start="+0x34" size="0x2" />
+  </RegisterGroup>
+  <RegisterGroup start="0x40007000" name="PMU">
+    <Register name="PMU_CTL" start="+0x00" size="0x4" />
+    <Register name="PMU_CS" start="+0x04" size="0x4" />
+  </RegisterGroup>
+  <RegisterGroup start="0x40007400" name="DAC">
+    <Register name="DAC_CTL" start="+0x00" size="0x4" />
+    <Register name="DAC_SWT" start="+0x04" size="0x4" />
+    <Register name="DAC0_R12DH" start="+0x08" size="0x4" />
+    <Register name="DAC0_L12DH" start="+0x0C" size="0x4" />
+    <Register name="DAC0_R8DH" start="+0x10" size="0x4" />
+    <Register name="DAC1_R12DH" start="+0x14" size="0x4" />
+    <Register name="DAC1_L12DH" start="+0x18" size="0x4" />
+    <Register name="DAC1_R8DH" start="+0x1C" size="0x4" />
+    <Register name="DACC_R12DH" start="+0x20" size="0x4" />
+    <Register name="DACC_L12DH" start="+0x24" size="0x4" />
+    <Register name="DACC_R8DH" start="+0x28" size="0x4" />
+    <Register name="DAC0_DO" start="+0x2C" size="0x4" />
+    <Register name="DAC1_DO" start="+0x30" size="0x4" />
+  </RegisterGroup>
+  <RegisterGroup start="0x40010000" name="AFIO">
+    <Register name="AFIO_EC" start="+0x00" size="0x4" />
+    <Register name="AFIO_PCF0" start="+0x04" size="0x4" />
+    <Register name="AFIO_EXTISS0" start="+0x08" size="0x4" />
+    <Register name="AFIO_EXTISS1" start="+0x0C" size="0x4" />
+    <Register name="AFIO_EXTISS2" start="+0x10" size="0x4" />
+    <Register name="AFIO_EXTISS3" start="+0x14" size="0x4" />
+    <Register name="AFIO_PCF1" start="+0x1C" size="0x4" />
+  </RegisterGroup>
+  <RegisterGroup start="0x40010400" name="EXTI">
+    <Register name="EXTI_INTEN" start="+0x00" size="0x4" />
+    <Register name="EXTI_EVEN" start="+0x04" size="0x4" />
+    <Register name="EXTI_RTEN" start="+0x08" size="0x4" />
+    <Register name="EXTI_FTEN" start="+0x0C" size="0x4" />
+    <Register name="EXTI_SWIEV" start="+0x10" size="0x4" />
+    <Register name="EXTI_PD" start="+0x14" size="0x4" />
+  </RegisterGroup>
+  <RegisterGroup start="0x40010800+0x00000000" name="GPIOA">
+    <Register name="GPIO_CTL0" start="+0x00" size="0x4" />
+    <Register name="GPIO_CTL1" start="+0x04" size="0x4" />
+    <Register name="GPIO_ISTAT" start="+0x08" size="0x4" />
+    <Register name="GPIO_OCTL" start="+0x0C" size="0x4" />
+    <Register name="GPIO_BOP" start="+0x10" size="0x4" />
+    <Register name="GPIO_BC" start="+0x14" size="0x4" />
+    <Register name="GPIO_LOCK" start="+0x18" size="0x4" />
+  </RegisterGroup>
+  <RegisterGroup start="0x40010800+0x00000400" name="GPIOB">
+    <Register name="GPIO_CTL0" start="+0x00" size="0x4" />
+    <Register name="GPIO_CTL1" start="+0x04" size="0x4" />
+    <Register name="GPIO_ISTAT" start="+0x08" size="0x4" />
+    <Register name="GPIO_OCTL" start="+0x0C" size="0x4" />
+    <Register name="GPIO_BOP" start="+0x10" size="0x4" />
+    <Register name="GPIO_BC" start="+0x14" size="0x4" />
+    <Register name="GPIO_LOCK" start="+0x18" size="0x4" />
+  </RegisterGroup>
+  <RegisterGroup start="0x40010800+0x00000800" name="GPIOC">
+    <Register name="GPIO_CTL0" start="+0x00" size="0x4" />
+    <Register name="GPIO_CTL1" start="+0x04" size="0x4" />
+    <Register name="GPIO_ISTAT" start="+0x08" size="0x4" />
+    <Register name="GPIO_OCTL" start="+0x0C" size="0x4" />
+    <Register name="GPIO_BOP" start="+0x10" size="0x4" />
+    <Register name="GPIO_BC" start="+0x14" size="0x4" />
+    <Register name="GPIO_LOCK" start="+0x18" size="0x4" />
+  </RegisterGroup>
+  <RegisterGroup start="0x40010800+0x00000C00" name="GPIOD">
+    <Register name="GPIO_CTL0" start="+0x00" size="0x4" />
+    <Register name="GPIO_CTL1" start="+0x04" size="0x4" />
+    <Register name="GPIO_ISTAT" start="+0x08" size="0x4" />
+    <Register name="GPIO_OCTL" start="+0x0C" size="0x4" />
+    <Register name="GPIO_BOP" start="+0x10" size="0x4" />
+    <Register name="GPIO_BC" start="+0x14" size="0x4" />
+    <Register name="GPIO_LOCK" start="+0x18" size="0x4" />
+  </RegisterGroup>
+  <RegisterGroup start="0x40010800+0x00001000" name="GPIOE">
+    <Register name="GPIO_CTL0" start="+0x00" size="0x4" />
+    <Register name="GPIO_CTL1" start="+0x04" size="0x4" />
+    <Register name="GPIO_ISTAT" start="+0x08" size="0x4" />
+    <Register name="GPIO_OCTL" start="+0x0C" size="0x4" />
+    <Register name="GPIO_BOP" start="+0x10" size="0x4" />
+    <Register name="GPIO_BC" start="+0x14" size="0x4" />
+    <Register name="GPIO_LOCK" start="+0x18" size="0x4" />
+  </RegisterGroup>
+  <RegisterGroup start="0x40012400+0x00000000" name="ADC0">
+    <Register name="ADC_STAT" start="+0x00" size="0x4" />
+    <Register name="ADC_CTL0" start="+0x04" size="0x4" />
+    <Register name="ADC_CTL1" start="+0x08" size="0x4" />
+    <Register name="ADC_SAMPT0" start="+0x0C" size="0x4" />
+    <Register name="ADC_SAMPT1" start="+0x10" size="0x4" />
+    <Register name="ADC_IOFF0" start="+0x14" size="0x4" />
+    <Register name="ADC_IOFF1" start="+0x18" size="0x4" />
+    <Register name="ADC_IOFF2" start="+0x1C" size="0x4" />
+    <Register name="ADC_IOFF3" start="+0x20" size="0x4" />
+    <Register name="ADC_WDHT" start="+0x24" size="0x4" />
+    <Register name="ADC_WDLT" start="+0x28" size="0x4" />
+    <Register name="ADC_RSQ0" start="+0x2C" size="0x4" />
+    <Register name="ADC_RSQ1" start="+0x30" size="0x4" />
+    <Register name="ADC_RSQ2" start="+0x34" size="0x4" />
+    <Register name="ADC_ISQ" start="+0x38" size="0x4" />
+    <Register name="ADC_IDATA0" start="+0x3C" size="0x4" />
+    <Register name="ADC_IDATA1" start="+0x40" size="0x4" />
+    <Register name="ADC_IDATA2" start="+0x44" size="0x4" />
+    <Register name="ADC_IDATA3" start="+0x48" size="0x4" />
+    <Register name="ADC_RDATA" start="+0x4C" size="0x4" />
+    <Register name="ADC_OVSCR" start="+0x80" size="0x4" />
+  </RegisterGroup>
+  <RegisterGroup start="0x40012400+0x00000400" name="ADC1">
+    <Register name="ADC_STAT" start="+0x00" size="0x4" />
+    <Register name="ADC_CTL0" start="+0x04" size="0x4" />
+    <Register name="ADC_CTL1" start="+0x08" size="0x4" />
+    <Register name="ADC_SAMPT0" start="+0x0C" size="0x4" />
+    <Register name="ADC_SAMPT1" start="+0x10" size="0x4" />
+    <Register name="ADC_IOFF0" start="+0x14" size="0x4" />
+    <Register name="ADC_IOFF1" start="+0x18" size="0x4" />
+    <Register name="ADC_IOFF2" start="+0x1C" size="0x4" />
+    <Register name="ADC_IOFF3" start="+0x20" size="0x4" />
+    <Register name="ADC_WDHT" start="+0x24" size="0x4" />
+    <Register name="ADC_WDLT" start="+0x28" size="0x4" />
+    <Register name="ADC_RSQ0" start="+0x2C" size="0x4" />
+    <Register name="ADC_RSQ1" start="+0x30" size="0x4" />
+    <Register name="ADC_RSQ2" start="+0x34" size="0x4" />
+    <Register name="ADC_ISQ" start="+0x38" size="0x4" />
+    <Register name="ADC_IDATA0" start="+0x3C" size="0x4" />
+    <Register name="ADC_IDATA1" start="+0x40" size="0x4" />
+    <Register name="ADC_IDATA2" start="+0x44" size="0x4" />
+    <Register name="ADC_IDATA3" start="+0x48" size="0x4" />
+    <Register name="ADC_RDATA" start="+0x4C" size="0x4" />
+    <Register name="ADC_OVSCR" start="+0x80" size="0x4" />
+  </RegisterGroup>
+  <RegisterGroup start="0x40021000" name="RCU">
+    <Register name="RCU_CTL" start="+0x00" size="0x4" />
+    <Register name="RCU_CFG0" start="+0x04" size="0x4" />
+    <Register name="RCU_INT" start="+0x08" size="0x4" />
+    <Register name="RCU_APB2RST" start="+0x0C" size="0x4" />
+    <Register name="RCU_APB1RST" start="+0x10" size="0x4" />
+    <Register name="RCU_AHBEN" start="+0x14" size="0x4" />
+    <Register name="RCU_APB2EN" start="+0x18" size="0x4" />
+    <Register name="RCU_APB1EN" start="+0x1C" size="0x4" />
+    <Register name="RCU_BDCTL" start="+0x20" size="0x4" />
+    <Register name="RCU_RSTSCK" start="+0x24" size="0x4" />
+    <Register name="RCU_AHBRST" start="+0x28" size="0x4" />
+    <Register name="RCU_CFG1" start="+0x2C" size="0x4" />
+    <Register name="RCU_DSV" start="+0x34" size="0x4" />
+  </RegisterGroup>
+  <RegisterGroup start="0x40022000" name="FMC">
+    <Register name="FMC_WS" start="+0x00" size="0x4" />
+    <Register name="FMC_KEY0" start="+0x04" size="0x4" />
+    <Register name="FMC_OBKEY" start="+0x08" size="0x4" />
+    <Register name="FMC_STAT0" start="+0x0C" size="0x4" />
+    <Register name="FMC_CTL0" start="+0x10" size="0x4" />
+    <Register name="FMC_ADDR0" start="+0x14" size="0x4" />
+    <Register name="FMC_OBSTAT" start="+0x1C" size="0x4" />
+    <Register name="FMC_WP" start="+0x20" size="0x4" />
+    <Register name="FMC_PID" start="+0x100" size="0x4" />
+  </RegisterGroup>
+  <RegisterGroup start="0x1FFFF800" name="OB">
+    <Register name="OB_SPC" start="+0x00" size="0x2" />
+    <Register name="OB_USER" start="+0x02" size="0x2" />
+    <Register name="OB_WP0" start="+0x08" size="0x2" />
+    <Register name="OB_WP1" start="+0x0A" size="0x2" />
+    <Register name="OB_WP2" start="+0x0C" size="0x2" />
+    <Register name="OB_WP3" start="+0x0E" size="0x2" />
+  </RegisterGroup>
+  <RegisterGroup start="0x40023000" name="CRC">
+    <Register name="CRC_DATA" start="+0x00" size="0x4" />
+    <Register name="CRC_FDATA" start="+0x04" size="0x4" />
+    <Register name="CRC_CTL" start="+0x08" size="0x4" />
+  </RegisterGroup>
+  <RegisterGroup start="0x50000000" name="USBFS">
+    <Register name="USBFS_GOTGCS" start="+0x000" size="0x4" />
+    <Register name="USBFS_GOTGINTF" start="+0x004" size="0x4" />
+    <Register name="USBFS_GAHBCS" start="+0x008" size="0x4" />
+    <Register name="USBFS_GUSBCS" start="+0x00C" size="0x4" />
+    <Register name="USBFS_GRSTCTL" start="+0x010" size="0x4" />
+    <Register name="USBFS_GINTF" start="+0x014" size="0x4" />
+    <Register name="USBFS_GINTEN" start="+0x018" size="0x4" />
+    <Register name="USBFS_GRSTATR" start="+0x01C" size="0x4" />
+    <Register name="USBFS_GRSTATP" start="+0x020" size="0x4" />
+    <Register name="USBFS_GRFLEN" start="+0x024" size="0x4" />
+    <Register name="USBFS_DIEP0TFLEN_HNPTFLEN" start="+0x028" size="0x4" />
+    <Register name="USBFS_HNPTFQSTAT" start="+0x02C" size="0x4" />
+    <Register name="USBFS_GCCFG" start="+0x038" size="0x4" />
+    <Register name="USBFS_CID" start="+0x03C" size="0x4" />
+    <Register name="USBFS_HPTFLEN" start="+0x100" size="0x4" />
+    <Register name="USBFS_DIEP1TFLEN" start="+0x104" size="0x4" />
+    <Register name="USBFS_DIEP2TFLEN" start="+0x108" size="0x4" />
+    <Register name="USBFS_DIEP3TFLEN" start="+0x10C" size="0x4" />
+    <Register name="USBFS_HCTL" start="+0x400" size="0x4" />
+    <Register name="USBFS_HFT" start="+0x404" size="0x4" />
+    <Register name="USBFS_HFINFR" start="+0x408" size="0x4" />
+    <Register name="USBFS_HPTFQSTAT" start="+0x410" size="0x4" />
+    <Register name="USBFS_HACHINT" start="+0x414" size="0x4" />
+    <Register name="USBFS_HACHINTEN" start="+0x418" size="0x4" />
+    <Register name="USBFS_HCH0CTL" start="+0x500+0*0x20" size="0x4" />
+    <Register name="USBFS_HCH0STCTL" start="+0x504+0*0x20" size="0x4" />
+    <Register name="USBFS_HCH0INTF" start="+0x508+0*0x20" size="0x4" />
+    <Register name="USBFS_HCH0INTEN" start="+0x50C+0*0x20" size="0x4" />
+    <Register name="USBFS_HCH0LEN" start="+0x510+0*0x20" size="0x4" />
+    <Register name="USBFS_HCH0DMAADDR" start="+0x514+0*0x20" size="0x4" />
+    <Register name="USBFS_HCH1CTL" start="+0x500+1*0x20" size="0x4" />
+    <Register name="USBFS_HCH1STCTL" start="+0x504+1*0x20" size="0x4" />
+    <Register name="USBFS_HCH1INTF" start="+0x508+1*0x20" size="0x4" />
+    <Register name="USBFS_HCH1INTEN" start="+0x50C+1*0x20" size="0x4" />
+    <Register name="USBFS_HCH1LEN" start="+0x510+1*0x20" size="0x4" />
+    <Register name="USBFS_HCH1DMAADDR" start="+0x514+1*0x20" size="0x4" />
+    <Register name="USBFS_HCH2CTL" start="+0x500+2*0x20" size="0x4" />
+    <Register name="USBFS_HCH2STCTL" start="+0x504+2*0x20" size="0x4" />
+    <Register name="USBFS_HCH2INTF" start="+0x508+2*0x20" size="0x4" />
+    <Register name="USBFS_HCH2INTEN" start="+0x50C+2*0x20" size="0x4" />
+    <Register name="USBFS_HCH2LEN" start="+0x510+2*0x20" size="0x4" />
+    <Register name="USBFS_HCH2DMAADDR" start="+0x514+2*0x20" size="0x4" />
+    <Register name="USBFS_HCH3CTL" start="+0x500+3*0x20" size="0x4" />
+    <Register name="USBFS_HCH3STCTL" start="+0x504+3*0x20" size="0x4" />
+    <Register name="USBFS_HCH3INTF" start="+0x508+3*0x20" size="0x4" />
+    <Register name="USBFS_HCH3INTEN" start="+0x50C+3*0x20" size="0x4" />
+    <Register name="USBFS_HCH3LEN" start="+0x510+3*0x20" size="0x4" />
+    <Register name="USBFS_HCH3DMAADDR" start="+0x514+3*0x20" size="0x4" />
+    <Register name="USBFS_HCH4CTL" start="+0x500+4*0x20" size="0x4" />
+    <Register name="USBFS_HCH4STCTL" start="+0x504+4*0x20" size="0x4" />
+    <Register name="USBFS_HCH4INTF" start="+0x508+4*0x20" size="0x4" />
+    <Register name="USBFS_HCH4INTEN" start="+0x50C+4*0x20" size="0x4" />
+    <Register name="USBFS_HCH4LEN" start="+0x510+4*0x20" size="0x4" />
+    <Register name="USBFS_HCH4DMAADDR" start="+0x514+4*0x20" size="0x4" />
+    <Register name="USBFS_HCH5CTL" start="+0x500+5*0x20" size="0x4" />
+    <Register name="USBFS_HCH5STCTL" start="+0x504+5*0x20" size="0x4" />
+    <Register name="USBFS_HCH5INTF" start="+0x508+5*0x20" size="0x4" />
+    <Register name="USBFS_HCH5INTEN" start="+0x50C+5*0x20" size="0x4" />
+    <Register name="USBFS_HCH5LEN" start="+0x510+5*0x20" size="0x4" />
+    <Register name="USBFS_HCH5DMAADDR" start="+0x514+5*0x20" size="0x4" />
+    <Register name="USBFS_HCH6CTL" start="+0x500+6*0x20" size="0x4" />
+    <Register name="USBFS_HCH6STCTL" start="+0x504+6*0x20" size="0x4" />
+    <Register name="USBFS_HCH6INTF" start="+0x508+6*0x20" size="0x4" />
+    <Register name="USBFS_HCH6INTEN" start="+0x50C+6*0x20" size="0x4" />
+    <Register name="USBFS_HCH6LEN" start="+0x510+6*0x20" size="0x4" />
+    <Register name="USBFS_HCH6DMAADDR" start="+0x514+6*0x20" size="0x4" />
+    <Register name="USBFS_DCFG" start="+0x800" size="0x4" />
+    <Register name="USBFS_DCTL" start="+0x804" size="0x4" />
+    <Register name="USBFS_DSTAT" start="+0x808" size="0x4" />
+    <Register name="USBFS_DIEPINTEN" start="+0x810" size="0x4" />
+    <Register name="USBFS_DOEPINTEN" start="+0x814" size="0x4" />
+    <Register name="USBFS_DAEPINT" start="+0x818" size="0x4" />
+    <Register name="USBFS_DAEPINTEN" start="+0x81C" size="0x4" />
+    <Register name="USBFS_DVBUSDT" start="+0x828" size="0x4" />
+    <Register name="USBFS_DVBUSPT" start="+0x82C" size="0x4" />
+    <Register name="USBFS_DTHRCTL" start="+0x830" size="0x4" />
+    <Register name="USBFS_DIEPFEINTEN" start="+0x834" size="0x4" />
+    <Register name="USBFS_DIEP0CTL" start="+0x900+0*0x20" size="0x4" />
+    <Register name="USBFS_DIEP0INTF" start="+0x908+0*0x20" size="0x4" />
+    <Register name="USBFS_DIEP0LEN" start="+0x910+0*0x20" size="0x4" />
+    <Register name="USBFS_DIEP0DMAADDR" start="+0x914+0*0x20" size="0x4" />
+    <Register name="USBFS_DIEP0TFSTAT" start="+0x918+0*0x20" size="0x4" />
+    <Register name="USBFS_DIEP1CTL" start="+0x900+1*0x20" size="0x4" />
+    <Register name="USBFS_DIEP1INTF" start="+0x908+1*0x20" size="0x4" />
+    <Register name="USBFS_DIEP1LEN" start="+0x910+1*0x20" size="0x4" />
+    <Register name="USBFS_DIEP1DMAADDR" start="+0x914+1*0x20" size="0x4" />
+    <Register name="USBFS_DIEP1TFSTAT" start="+0x918+1*0x20" size="0x4" />
+    <Register name="USBFS_DIEP2CTL" start="+0x900+2*0x20" size="0x4" />
+    <Register name="USBFS_DIEP2INTF" start="+0x908+2*0x20" size="0x4" />
+    <Register name="USBFS_DIEP2LEN" start="+0x910+2*0x20" size="0x4" />
+    <Register name="USBFS_DIEP2DMAADDR" start="+0x914+2*0x20" size="0x4" />
+    <Register name="USBFS_DIEP2TFSTAT" start="+0x918+2*0x20" size="0x4" />
+    <Register name="USBFS_DOEPCTL" start="+0xB00+0*0x20" size="0x4" />
+    <Register name="USBFS_DOEPINTF" start="+0xB08+0*0x20" size="0x4" />
+    <Register name="USBFS_DOEPLEN" start="+0xB10+0*0x20" size="0x4" />
+    <Register name="USBFS_DOEPCTL" start="+0xB00+1*0x20" size="0x4" />
+    <Register name="USBFS_DOEPINTF" start="+0xB08+1*0x20" size="0x4" />
+    <Register name="USBFS_DOEPLEN" start="+0xB10+1*0x20" size="0x4" />
+    <Register name="USBFS_DOEPCTL" start="+0xB00+2*0x20" size="0x4" />
+    <Register name="USBFS_DOEPINTF" start="+0xB08+2*0x20" size="0x4" />
+    <Register name="USBFS_DOEPLEN" start="+0xB10+2*0x20" size="0x4" />
+    <Register name="USBFS_PWRCLKCTL" start="+0xE00" size="0x4" />
+  </RegisterGroup>
+</Processor>

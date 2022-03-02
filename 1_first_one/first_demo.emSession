@@ -1,0 +1,70 @@
+<!DOCTYPE CrossStudio_Session_File>
+<session>
+ <Bookmarks/>
+ <Breakpoints groups="Breakpoints" active_group="Breakpoints"/>
+ <ExecutionProfileWindow/>
+ <FrameBufferWindow>
+  <FrameBufferWindow bufferHeight="-1" addressSpace="" addressText="" bufferWidth="-1"/>
+ </FrameBufferWindow>
+ <Memory1>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" viewType="4" addressOrder="0" columnsText="" refreshPeriod="0" name="first_demo" sizeText="" addressText=""/>
+ </Memory1>
+ <Memory2>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" viewType="4" addressOrder="0" columnsText="" refreshPeriod="0" name="first_demo" sizeText="" addressText=""/>
+ </Memory2>
+ <Memory3>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" viewType="4" addressOrder="0" columnsText="" refreshPeriod="0" name="first_demo" sizeText="" addressText=""/>
+ </Memory3>
+ <Memory4>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" viewType="4" addressOrder="0" columnsText="" refreshPeriod="0" name="first_demo" sizeText="" addressText=""/>
+ </Memory4>
+ <Project>
+  <ProjectSessionItem path="first_demo"/>
+  <ProjectSessionItem path="first_demo;first_demo"/>
+  <ProjectSessionItem path="first_demo;first_demo;Script Files"/>
+  <ProjectSessionItem path="first_demo;first_demo;Source Files"/>
+  <ProjectSessionItem path="first_demo;first_demo;System Files"/>
+ </Project>
+ <Register1>
+  <RegisterWindow visibleNodes="ABI, RV32I/pc;ABI, RV32I/ra;ABI, RV32I/sp;ABI, RV32I/gp;ABI, RV32I/tp;ABI, RV32I/a0;ABI, RV32I/a1;ABI, RV32I/a2;ABI, RV32I/a3;ABI, RV32I/a4;ABI, RV32I/a5;ABI, RV32I/a6;ABI, RV32I/a7;ABI, RV32I/t0;ABI, RV32I/t1;ABI, RV32I/t2;ABI, RV32I/t3;ABI, RV32I/t4;ABI, RV32I/t5;ABI, RV32I/t6;ABI, RV32I/s0;ABI, RV32I/s1;ABI, RV32I/s2;ABI, RV32I/s3;ABI, RV32I/s4;ABI, RV32I/s5;ABI, RV32I/s6;ABI, RV32I/s7;ABI, RV32I/s8;ABI, RV32I/s9;ABI, RV32I/s10;ABI, RV32I/s11;CPU, RV32I/pc;CPU, RV32I/x1;CPU, RV32I/x2;CPU, RV32I/x3;CPU, RV32I/x4;CPU, RV32I/x5;CPU, RV32I/x6;CPU, RV32I/x7;CPU, RV32I/x8;CPU, RV32I/x9;CPU, RV32I/x10;CPU, RV32I/x11;CPU, RV32I/x12;CPU, RV32I/x13;CPU, RV32I/x14;CPU, RV32I/x15;CPU, RV32I/x16;CPU, RV32I/x17;CPU, RV32I/x18;CPU, RV32I/x19;CPU, RV32I/x20;CPU, RV32I/x21;CPU, RV32I/x22;CPU, RV32I/x23;CPU, RV32I/x24;CPU, RV32I/x25;CPU, RV32I/x26;CPU, RV32I/x27;CPU, RV32I/x28;CPU, RV32I/x29;CPU, RV32I/x30;CPU, RV32I/x31" binaryNodes="" asciiNodes="" openNodes="CPU, RV32I" name="first_demo" decimalNodes="" octalNodes="" unsignedNodes=""/>
+ </Register1>
+ <Register2>
+  <RegisterWindow visibleNodes="ABI, RV32I/pc;ABI, RV32I/ra;ABI, RV32I/sp;ABI, RV32I/gp;ABI, RV32I/tp;ABI, RV32I/a0;ABI, RV32I/a1;ABI, RV32I/a2;ABI, RV32I/a3;ABI, RV32I/a4;ABI, RV32I/a5;ABI, RV32I/a6;ABI, RV32I/a7;ABI, RV32I/t0;ABI, RV32I/t1;ABI, RV32I/t2;ABI, RV32I/t3;ABI, RV32I/t4;ABI, RV32I/t5;ABI, RV32I/t6;ABI, RV32I/s0;ABI, RV32I/s1;ABI, RV32I/s2;ABI, RV32I/s3;ABI, RV32I/s4;ABI, RV32I/s5;ABI, RV32I/s6;ABI, RV32I/s7;ABI, RV32I/s8;ABI, RV32I/s9;ABI, RV32I/s10;ABI, RV32I/s11;ABI, RV32E/pc;ABI, RV32E/ra;ABI, RV32E/sp;ABI, RV32E/gp;ABI, RV32E/tp;ABI, RV32E/a0;ABI, RV32E/a1;ABI, RV32E/a2;ABI, RV32E/a3;ABI, RV32E/a4;ABI, RV32E/a5;ABI, RV32E/t0;ABI, RV32E/t1;ABI, RV32E/t2;ABI, RV32E/s0;ABI, RV32E/s1;ABI, RV64I/pc;ABI, RV64I/ra;ABI, RV64I/sp;ABI, RV64I/gp;ABI, RV64I/tp;ABI, RV64I/a0;ABI, RV64I/a1;ABI, RV64I/a2;ABI, RV64I/a3;ABI, RV64I/a4;ABI, RV64I/a5;ABI, RV64I/a6;ABI, RV64I/a7;ABI, RV64I/t0;ABI, RV64I/t1;ABI, RV64I/t2;ABI, RV64I/t3;ABI, RV64I/t4;ABI, RV64I/t5;ABI, RV64I/t6;ABI, RV64I/s0;ABI, RV64I/s1;ABI, RV64I/s2;ABI, RV64I/s3;ABI, RV64I/s4;ABI, RV64I/s5;ABI, RV64I/s6;ABI, RV64I/s7;ABI, RV64I/s8;ABI, RV64I/s9;ABI, RV64I/s10;ABI, RV64I/s11;CPU, RV32I/pc;CPU, RV32I/x1;CPU, RV32I/x2;CPU, RV32I/x3;CPU, RV32I/x4;CPU, RV32I/x5;CPU, RV32I/x6;CPU, RV32I/x7;CPU, RV32I/x8;CPU, RV32I/x9;CPU, RV32I/x10;CPU, RV32I/x11;CPU, RV32I/x12;CPU, RV32I/x13;CPU, RV32I/x14;CPU, RV32I/x15;CPU, RV32I/x16;CPU, RV32I/x17;CPU, RV32I/x18;CPU, RV32I/x19;CPU, RV32I/x20;CPU, RV32I/x21;CPU, RV32I/x22;CPU, RV32I/x23;CPU, RV32I/x24;CPU, RV32I/x25;CPU, RV32I/x26;CPU, RV32I/x27;CPU, RV32I/x28;CPU, RV32I/x29;CPU, RV32I/x30;CPU, RV32I/x31" binaryNodes="" asciiNodes="" openNodes="CPU, RV32I" name="first_demo" decimalNodes="" octalNodes="" unsignedNodes=""/>
+ </Register2>
+ <Register3>
+  <RegisterWindow visibleNodes="ABI, RV32I/pc;ABI, RV32I/ra;ABI, RV32I/sp;ABI, RV32I/gp;ABI, RV32I/tp;ABI, RV32I/a0;ABI, RV32I/a1;ABI, RV32I/a2;ABI, RV32I/a3;ABI, RV32I/a4;ABI, RV32I/a5;ABI, RV32I/a6;ABI, RV32I/a7;ABI, RV32I/t0;ABI, RV32I/t1;ABI, RV32I/t2;ABI, RV32I/t3;ABI, RV32I/t4;ABI, RV32I/t5;ABI, RV32I/t6;ABI, RV32I/s0;ABI, RV32I/s1;ABI, RV32I/s2;ABI, RV32I/s3;ABI, RV32I/s4;ABI, RV32I/s5;ABI, RV32I/s6;ABI, RV32I/s7;ABI, RV32I/s8;ABI, RV32I/s9;ABI, RV32I/s10;ABI, RV32I/s11;ABI, RV32E/pc;ABI, RV32E/ra;ABI, RV32E/sp;ABI, RV32E/gp;ABI, RV32E/tp;ABI, RV32E/a0;ABI, RV32E/a1;ABI, RV32E/a2;ABI, RV32E/a3;ABI, RV32E/a4;ABI, RV32E/a5;ABI, RV32E/t0;ABI, RV32E/t1;ABI, RV32E/t2;ABI, RV32E/s0;ABI, RV32E/s1;ABI, RV64I/pc;ABI, RV64I/ra;ABI, RV64I/sp;ABI, RV64I/gp;ABI, RV64I/tp;ABI, RV64I/a0;ABI, RV64I/a1;ABI, RV64I/a2;ABI, RV64I/a3;ABI, RV64I/a4;ABI, RV64I/a5;ABI, RV64I/a6;ABI, RV64I/a7;ABI, RV64I/t0;ABI, RV64I/t1;ABI, RV64I/t2;ABI, RV64I/t3;ABI, RV64I/t4;ABI, RV64I/t5;ABI, RV64I/t6;ABI, RV64I/s0;ABI, RV64I/s1;ABI, RV64I/s2;ABI, RV64I/s3;ABI, RV64I/s4;ABI, RV64I/s5;ABI, RV64I/s6;ABI, RV64I/s7;ABI, RV64I/s8;ABI, RV64I/s9;ABI, RV64I/s10;ABI, RV64I/s11;CPU, RV32I/pc;CPU, RV32I/x1;CPU, RV32I/x2;CPU, RV32I/x3;CPU, RV32I/x4;CPU, RV32I/x5;CPU, RV32I/x6;CPU, RV32I/x7;CPU, RV32I/x8;CPU, RV32I/x9;CPU, RV32I/x10;CPU, RV32I/x11;CPU, RV32I/x12;CPU, RV32I/x13;CPU, RV32I/x14;CPU, RV32I/x15;CPU, RV32I/x16;CPU, RV32I/x17;CPU, RV32I/x18;CPU, RV32I/x19;CPU, RV32I/x20;CPU, RV32I/x21;CPU, RV32I/x22;CPU, RV32I/x23;CPU, RV32I/x24;CPU, RV32I/x25;CPU, RV32I/x26;CPU, RV32I/x27;CPU, RV32I/x28;CPU, RV32I/x29;CPU, RV32I/x30;CPU, RV32I/x31" binaryNodes="" asciiNodes="" openNodes="CPU, RV32I" name="first_demo" decimalNodes="" octalNodes="" unsignedNodes=""/>
+ </Register3>
+ <Register4>
+  <RegisterWindow visibleNodes="ABI, RV32I/pc;ABI, RV32I/ra;ABI, RV32I/sp;ABI, RV32I/gp;ABI, RV32I/tp;ABI, RV32I/a0;ABI, RV32I/a1;ABI, RV32I/a2;ABI, RV32I/a3;ABI, RV32I/a4;ABI, RV32I/a5;ABI, RV32I/a6;ABI, RV32I/a7;ABI, RV32I/t0;ABI, RV32I/t1;ABI, RV32I/t2;ABI, RV32I/t3;ABI, RV32I/t4;ABI, RV32I/t5;ABI, RV32I/t6;ABI, RV32I/s0;ABI, RV32I/s1;ABI, RV32I/s2;ABI, RV32I/s3;ABI, RV32I/s4;ABI, RV32I/s5;ABI, RV32I/s6;ABI, RV32I/s7;ABI, RV32I/s8;ABI, RV32I/s9;ABI, RV32I/s10;ABI, RV32I/s11;ABI, RV32E/pc;ABI, RV32E/ra;ABI, RV32E/sp;ABI, RV32E/gp;ABI, RV32E/tp;ABI, RV32E/a0;ABI, RV32E/a1;ABI, RV32E/a2;ABI, RV32E/a3;ABI, RV32E/a4;ABI, RV32E/a5;ABI, RV32E/t0;ABI, RV32E/t1;ABI, RV32E/t2;ABI, RV32E/s0;ABI, RV32E/s1;ABI, RV64I/pc;ABI, RV64I/ra;ABI, RV64I/sp;ABI, RV64I/gp;ABI, RV64I/tp;ABI, RV64I/a0;ABI, RV64I/a1;ABI, RV64I/a2;ABI, RV64I/a3;ABI, RV64I/a4;ABI, RV64I/a5;ABI, RV64I/a6;ABI, RV64I/a7;ABI, RV64I/t0;ABI, RV64I/t1;ABI, RV64I/t2;ABI, RV64I/t3;ABI, RV64I/t4;ABI, RV64I/t5;ABI, RV64I/t6;ABI, RV64I/s0;ABI, RV64I/s1;ABI, RV64I/s2;ABI, RV64I/s3;ABI, RV64I/s4;ABI, RV64I/s5;ABI, RV64I/s6;ABI, RV64I/s7;ABI, RV64I/s8;ABI, RV64I/s9;ABI, RV64I/s10;ABI, RV64I/s11;CPU, RV32I/pc;CPU, RV32I/x1;CPU, RV32I/x2;CPU, RV32I/x3;CPU, RV32I/x4;CPU, RV32I/x5;CPU, RV32I/x6;CPU, RV32I/x7;CPU, RV32I/x8;CPU, RV32I/x9;CPU, RV32I/x10;CPU, RV32I/x11;CPU, RV32I/x12;CPU, RV32I/x13;CPU, RV32I/x14;CPU, RV32I/x15;CPU, RV32I/x16;CPU, RV32I/x17;CPU, RV32I/x18;CPU, RV32I/x19;CPU, RV32I/x20;CPU, RV32I/x21;CPU, RV32I/x22;CPU, RV32I/x23;CPU, RV32I/x24;CPU, RV32I/x25;CPU, RV32I/x26;CPU, RV32I/x27;CPU, RV32I/x28;CPU, RV32I/x29;CPU, RV32I/x30;CPU, RV32I/x31" binaryNodes="" asciiNodes="" openNodes="CPU, RV32I" name="first_demo" decimalNodes="" octalNodes="" unsignedNodes=""/>
+ </Register4>
+ <Threads>
+  <ThreadsWindow showLists=""/>
+ </Threads>
+ <TraceWindow>
+  <Trace enabled="Yes"/>
+ </TraceWindow>
+ <Watch1>
+  <Watches active="1" update="Never">
+   <Watchpoint expression="i" name="i" radix="10" linenumber="0" filename="../first_one"/>
+  </Watches>
+ </Watch1>
+ <Watch2>
+  <Watches active="0" update="Never"/>
+ </Watch2>
+ <Watch3>
+  <Watches active="0" update="Never"/>
+ </Watch3>
+ <Watch4>
+  <Watches active="0" update="Never"/>
+ </Watch4>
+ <Files>
+  <SessionOpenFile windowGroup="DockEditLeft" x="19" y="55" useTextEdit="1" path="main.c" left="0" selected="1" top="45" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="6" y="176" useTextEdit="1" path="GD32VF1xx/Device/Source/system_gd32vf103.c" left="0" top="171" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="31" useTextEdit="1" path="GD32VF1xx/Device/Source/init.c" left="0" top="4" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="9" y="207" useTextEdit="1" path="riscv_crt0.s" left="0" top="201" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="244" useTextEdit="1" openedFrom="C:/dev/riscv/fun_with_rv/first_one/GD32VF1xx/Device/Include/gd32vf103_rcu.h" path="GD32VF1xx/Device/Include/gd32vf103.h" left="0" top="228" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="41" y="72" useTextEdit="1" openedFrom="C:/dev/riscv/fun_with_rv/first_one/GD32VF1xx/Device/Source/system_gd32vf103.c" path="GD32VF1xx/Device/Include/gd32vf103_rcu.h" left="0" top="57" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="12" y="389" useTextEdit="1" openedFrom="C:/dev/riscv/fun_with_rv/first_one/main.c" path="GD32VF1xx/Device/Include/gd32vf103_gpio.h" left="0" top="376" codecName="Default"/>
+ </Files>
+ <EMStudioWindow activeProject="first_demo" fileDialogDefaultFilter="*.c" autoConnectTarget="J-Link" buildConfiguration="Release" sessionSettings="" debugSearchFileMap="" fileDialogInitialDirectory="" debugSearchPath="" autoConnectCapabilities="3199"/>
+</session>
